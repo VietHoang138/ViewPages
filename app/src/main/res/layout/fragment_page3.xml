@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F3E5F5"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPage3"
+            android:src="@drawable/location_sample"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:text="Danh sách thành phố nổi tiếng"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ListView
+            android:id="@+id/listViewPage3"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:text="Bảng màu minh họa"
+            android:textStyle="bold"
+            android:textColor="#4A148C"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <GridView
+            android:id="@+id/gridViewPage3"
+            android:numColumns="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:verticalSpacing="8dp"
+            android:horizontalSpacing="8dp"/>
+    </LinearLayout>
+</ScrollView>
